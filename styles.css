@@ -293,7 +293,7 @@ svg { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
   position: absolute;
   bottom: -28px;
   right: -28px;
-  width: 30%;
+  width: 22%;
   border-radius: var(--radius-sm);
   border: 5px solid #fff;
   box-shadow: var(--shadow-lg);

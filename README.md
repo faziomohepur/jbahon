@@ -34,11 +34,10 @@ Sau đó mở `http://localhost:8889`.
 - Số điện thoại/Zalo, giá, tuyến đường: sửa trực tiếp trong `index.html`
 - Thông tin công ty ở footer ("VỀ CHÚNG TÔI"): trong khối `.footer-col--about` của `index.html`
 - Đơn đặt xe gửi về mục **Forms** trong Netlify UI của site này
-
 wrangler pages project list
 wrangler pages project create jtaxidienrg
 wrangler pages download config jat
 npm install -g wrangler
 wrangler login
 wrangler whomi
-wrangler pages deploy --project-name jtmc --commit-dirty=true"# jbahon" 
+wrangler pages deploy --project-name jtmc --commit-dirty=true

@@ -1,6 +1,20 @@
-{
+ {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "jbahon",
-  "compatibility_date": "2026-09-14",
-  "pages_build_output_dir": "."
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-22",
+  "observability": {
+    "enabled": true
+  },
+  
+  
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "6efc9fb5cf5a4184b1fa40c4b760f1ec",
+      
+      // Optional: preview_id used when running `wrangler dev` for local dev
+      "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
+    }
+  ]
 }
